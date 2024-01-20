@@ -636,7 +636,7 @@ footer{
 	}
 }
 /* Telas Pequenas */
-@media (min-width: 249px) and (max-width: 480px) 
+@media (min-width: 424px) and (max-width: 669px) 
 {
 	.nav-menu{
 		position: fixed;
