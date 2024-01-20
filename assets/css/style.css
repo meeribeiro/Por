@@ -609,6 +609,8 @@ footer{
 	}
 	.skills-box{
 		margin: 5px;
+		align-items: center;
+		text-align: center;
 	}
 	.skills-header{
 		margin-bottom: 30px;
@@ -631,6 +633,103 @@ footer{
 	}
 	.footer-menu{
 		font-size: 12px;
+	}
+}
+/* Telas Pequenas */
+@media (min-width: 249px) and (max-width: 480px) 
+{
+	.nav-menu{
+		position: fixed;
+		top: 90px;
+		left: -100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		min-height: 100px;
+		height: 90vh;
+		transition: .3s;
+	}
+	.nav_menu_list{
+		flex-direction: column;
+
+	}
+	.featured-name{
+		font-size: 20px;
+	}
+	.featured-image{
+		order: 1;
+		justify-content: center;
+		min-height: 120px;
+		width: 150%;
+		margin-top: 50px;
+
+	}
+	.image, .image img{
+		width: 60px;
+		height:60px ;
+	}
+	.featured-box{
+		flex-direction: column;
+		justify-content: center;
+		height: 230vh;
+	}
+	.featured-text-btn a{
+		font-size: 6px;
+	}
+	.social_icons{
+		margin-top: 2em;
+		justify-content: center;
+	}
+	.skills-box{
+		margin: 0;
+		padding-bottom: 30px;
+		text-align: center;
+		align-items: center;
+		
+	}
+	.skills-box h3{
+		font-size: 10px;
+		text-align: center;
+		align-items: center;
+	}
+	.skills-header{
+		margin-bottom: 15px;
+		text-align: center;
+
+	}
+	.skills-list{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.skills-list span{
+		font-size: 11px;
+		padding: 6px 15px;
+		text-align: center;
+		justify-content: center;
+
+	}
+	.bottom-footer{
+		font-size: 10px;
+	}
+	.top-footer{
+		font-size: 13px;
+	}
+	.footer-menu{
+		font-size: 12px;
+	}
+	.contact-info{
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	}
+	.contact-info p{
+		font-size: 10px;
+	}	
+	.contact-info h2{
+		font-size: 15px;
 	}
 }
 
