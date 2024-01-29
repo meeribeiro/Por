@@ -9,7 +9,7 @@ function meuMenuFunction(){
 }
 }
 
-/* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
+/* ----- ADICIONE SOMBRA NA BARRA DE NAVEGAÇÃO AO ROLAR ----- */
     window.onscroll = function(){headerShow()};
 
     function headerShow(){
@@ -57,8 +57,6 @@ function meuMenuFunction(){
 
   /* -- HEADINGS -- */
   sr.reveal('.top-header',{})
-
-/* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
 
 
   /* -- ABOUT INFO & CONTACT INFO -- */

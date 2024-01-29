@@ -635,7 +635,7 @@ footer{
 		font-size: 12px;
 	}
 }
-/* Telas Pequenas */
+/* Telas Pequenas 
 @media (min-width: 419px) and (max-width: 669px) 
 {
 	.nav-menu{
@@ -732,4 +732,5 @@ footer{
 		font-size: 15px;
 	}
 }
+*/
 
